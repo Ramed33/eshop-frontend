@@ -1,0 +1,15 @@
+.App {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+  background-color: #E7E5E4;
+  color: #1C1917;
+  padding: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
